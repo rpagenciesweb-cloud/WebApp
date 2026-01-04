@@ -1,0 +1,94 @@
+.Container{
+    justify-self: center;
+    margin-bottom: 2rem;
+}
+.aboutUs{
+    font-family: "Poppins", sans-serif;
+    font-size: xx-large;
+    color: #02072c;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.aboutContainer{
+    display: flex;
+    width: 60rem;
+    height: 20rem;
+    border: 1px solid rgb(208, 200, 200);
+    border-radius: 15px;
+}
+.quotes{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.quotes h1{
+    color: #08147f;
+    font-size: x-large;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+}
+.quotes span{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #060d4b;
+}
+
+.logo{
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #060d4b;
+}
+.textContainer{
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    font-size: small;
+}
+.imgContainer img{
+    width: 200px;
+}
+@media(max-width:900px){
+    .aboutContainer{
+        width: 40rem;
+    }
+    .imgContainer img{
+    width: 150px;
+}
+}
+@media(max-width:1000px){
+    .aboutContainer{
+        width: 50rem;
+    }
+    .imgContainer img{
+    width: 150px;
+}
+}
+@media(max-width:800px){
+    .aboutContainer{
+        width: 30rem;
+    }
+    .imgContainer img{
+    width: 100px;
+}
+}
+@media(max-width:600px){
+    .aboutContainer{
+        flex-direction: column;
+        height: auto;
+        width: 20rem;
+    }
+    .quotes{
+        width: 100%;
+        padding: 1rem;
+    }
+    .logo{
+        width: 100%;
+        padding: 1rem;
+    }
+}

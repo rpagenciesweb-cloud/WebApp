@@ -1,0 +1,10 @@
+.main{
+    background-color: #070e43;
+}
+.text{
+    color: rgb(255, 217, 0);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background-color: transparent;
+}

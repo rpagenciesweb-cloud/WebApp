@@ -1,0 +1,117 @@
+.imgHolder{
+    width: 500px;
+    justify-self: center;
+    border-radius: 10px;
+}
+.imgHolder img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    border: 1px solid gray;
+    justify-self: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.detailMain{
+    margin: 1rem;
+}
+.productName{
+    text-align: center;
+    color: #070e43;
+}
+.about{
+    color: #020e6f;
+}
+.lower{
+    width: 100%;
+}
+.desContent{
+    width: 100%;
+}
+.desContent pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 2rem;
+}
+.desc{
+    margin: 10px 0;
+}
+.sizeWrapper{
+    display: flex;
+    gap: 15px;
+}
+.size{
+    width: 3.5rem;
+    height: 2.5rem;
+    background-color: #020e6f;
+    align-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.size button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+}
+.size:hover{
+    border: 1px solid #020e6f;
+    background-color: white;
+    color: #020e6f;
+    button{
+        color: #020e6f;
+    }
+}
+.price{
+    margin: 1rem 2px;
+    color: gray;
+}
+.price span{
+    color: orange;
+    font-size: larger;
+    font-weight: 600;
+}
+.btnQuote{
+    justify-self: center;
+    width: 10rem;
+    height: 3rem;
+    background-color: green;
+    border-radius: 10px;
+}
+.btnQuote button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: larger;
+    border: none;
+}
+
+.btnQuote:hover{
+    border: 1px solid green;
+    background-color: white;
+    button{
+        color: green;
+    }
+}
+
+@media(max-width:700px){
+.imgHolder{
+    width: 350px;
+}
+.wrapper{
+    width: 400px;
+}
+}

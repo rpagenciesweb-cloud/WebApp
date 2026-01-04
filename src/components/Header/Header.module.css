@@ -1,0 +1,70 @@
+.header{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Upper{
+    display: flex;
+    justify-content: space-between;
+}
+.lower{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 0;
+}
+.logo img{
+    width: 100px;
+}
+.naming{
+    text-align: center;
+}
+.naming div h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: #1b2ccc;
+    background: linear-gradient(81deg, rgba(27, 44, 204, 1) 0%, rgba(56, 93, 214, 1) 25%, rgba(247, 107, 0, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.naming div p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+}
+
+@media(max-width: 768px){
+    .lower{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .naming {
+        text-align: center;
+    }
+    .logo img{
+    width: 80px;
+    }
+    .naming div h1{
+    font-size: 40px;
+    }
+    .naming div p{
+        font-size: 20px;
+    }
+    .Upper p{
+        font-size: smaller;
+    }
+}

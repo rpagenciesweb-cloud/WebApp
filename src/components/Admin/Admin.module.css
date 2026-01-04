@@ -1,0 +1,28 @@
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.adminContainer {
+    flex: 1;
+}
+
+.signoutbtn{
+    align-self: center;
+}
+
+.signoutbtn button{
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2rem;
+}
+.signoutbtn button:hover{
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+}

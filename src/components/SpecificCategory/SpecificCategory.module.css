@@ -1,0 +1,13 @@
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+}
+.categoryName{
+    justify-self: center;
+    margin: 2rem;
+    color: orange;
+}
