@@ -65,3 +65,22 @@
         border-bottom: 1px solid #ddd;
     }
 }
+.select{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+.select option{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.select:hover {
+    background-color: white;
+    color: #f76b00;
+}

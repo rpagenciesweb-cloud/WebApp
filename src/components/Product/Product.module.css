@@ -66,6 +66,7 @@
 }
 .productTitle {
     overflow: hidden;
+    color: rgb(1, 1, 33);
     font-size: 1.5rem;
     font-weight: 600;
     white-space: nowrap;
@@ -73,13 +74,12 @@
 }
 .priceTag {
     font-size: small;
-    font-style: italic;
-    color: gray;
+    color: rgb(9, 4, 58);
 }
 .priceTag span {
     font-weight: 600;
     font-size: large;
-    color: black;
+    color: green;
 }
 
 @media(max-width:768px) {
