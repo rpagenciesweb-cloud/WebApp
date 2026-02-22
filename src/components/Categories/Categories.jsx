@@ -35,6 +35,8 @@ function Categories() {
                         <option value="LED Frames">LED Frames</option>
                         <option value="Polystyrene Frames">Polystyrene Frames</option>
                         <option value="Wooden Frames">Wooden Frames</option>
+                        <option value="Frame Machines">Machines</option>
+                        <option value="Frame Accessories">Accessories</option>
                     </select>
                 </div>
                 <div className={style.selectHolder}>
@@ -48,12 +50,26 @@ function Categories() {
                         <option value="Water Bottles">Water Bottles</option>
                         <option value="T-Shirts">T-Shirts</option>
                         <option value="Pillows">Pillows</option>
+                        <option value="Sublimation Machines">Machines</option>
+                        <option value="Sublimation Accessories">Accessories</option>
                     </select>
                 </div>
 
                 <div><Link to="/category/LED Frames">LED Lamps</Link></div>
                 <div><Link to="/category/Gifts">Gifts</Link></div>
-                <div><Link to="/category/Laser Prints">Laser Prints</Link></div>
+                {/*<div><Link to="/category/Laser Prints">Laser Prints</Link></div>*/}
+                <div className={style.selectHolder}>
+                    <select
+                        className={style.select}
+                        onChange={handleSublimationChange}
+                        defaultValue=""
+                    >
+                        <option value="">Laser Prints</option>
+                        <option value="Prints">Prints</option>
+                        <option value="Laser Machines">Machines</option>
+                        <option value="Laser Accessories">Accessories</option>
+                    </select>
+                </div>
                 <div><Link to="/category/Photo Shoots">Photo Shoots</Link></div>
                 <div><Link to="/category/Tour Packages">Tour Packages</Link></div>
                 <div><Link to="/category/Corporate Gifts">Corporate Gifts</Link></div>
