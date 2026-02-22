@@ -30,6 +30,19 @@ function Categories() {
                         onChange={handleSublimationChange}
                         defaultValue=""
                     >
+                        <option value="">Photo Frames</option>
+                        <option value="Plastic Frames">Plastic Frames</option>
+                        <option value="LED Frames">LED Frames</option>
+                        <option value="Polystyrene Frames">Polystyrene Frames</option>
+                        <option value="Wooden Frames">Wooden Frames</option>
+                    </select>
+                </div>
+                <div className={style.selectHolder}>
+                    <select
+                        className={style.select}
+                        onChange={handleSublimationChange}
+                        defaultValue=""
+                    >
                         <option value="">Sublimations</option>
                         <option value="Mug Items">Mug Items</option>
                         <option value="Water Bottles">Water Bottles</option>
@@ -38,7 +51,7 @@ function Categories() {
                     </select>
                 </div>
 
-                <div><Link to="/category/LED Frames">LED Frames</Link></div>
+                <div><Link to="/category/LED Frames">LED Lamps</Link></div>
                 <div><Link to="/category/Gifts">Gifts</Link></div>
                 <div><Link to="/category/Laser Prints">Laser Prints</Link></div>
                 <div><Link to="/category/Photo Shoots">Photo Shoots</Link></div>
