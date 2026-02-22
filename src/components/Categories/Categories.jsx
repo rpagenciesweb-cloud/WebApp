@@ -23,7 +23,7 @@ function Categories() {
 
             <div className={`${style.container} ${open ? style.show : ""}`}>
                 <div><Link to="/">Home</Link></div>
-                <div><Link to="/category/Photo Frames">Photo Frames</Link></div>
+                {/*<div><Link to="/category/Photo Frames">Photo Frames</Link></div>*/}
                 <div className={style.selectHolder}>
                     <select
                         className={style.select}
