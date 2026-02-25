@@ -1,6 +1,7 @@
 .Container{
     justify-self: center;
     margin-bottom: 2rem;
+    background-color: white;
 }
 .aboutUs{
     font-family: "Poppins", sans-serif;
