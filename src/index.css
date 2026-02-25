@@ -6,4 +6,9 @@
 }
 body{
   background-color: rgba(255, 255, 255, 0.921);
+  background-image: url('./assets/bg.jpg');
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;  
+  background-attachment: fixed;  
 }
