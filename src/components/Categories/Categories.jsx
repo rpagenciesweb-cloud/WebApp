@@ -55,7 +55,7 @@ function Categories() {
                     </select>
                 </div>
 
-                <div><Link to="/category/LED Frames">LED Lamps</Link></div>
+                <div><Link to="/category/LED Lamps">LED Lamps</Link></div>
                 <div><Link to="/category/Gifts">Gifts</Link></div>
                 {/*<div><Link to="/category/Laser Prints">Laser Prints</Link></div>*/}
                 <div className={style.selectHolder}>
