@@ -49,6 +49,7 @@ function Categories() {
                         <option value="Mug Items">Mug Items</option>
                         <option value="Water Bottles">Water Bottles</option>
                         <option value="T-Shirts">T-Shirts</option>
+                        <option value="Caps">Caps</option>
                         <option value="Pillows">Pillows</option>
                         <option value="Sublimation Machines">Machines</option>
                         <option value="Sublimation Accessories">Accessories</option>
